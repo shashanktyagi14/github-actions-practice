@@ -1,0 +1,13 @@
+
+name: hello
+
+on:
+  push:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: say hello to everyone
+        run: echo "Hello dosto"
